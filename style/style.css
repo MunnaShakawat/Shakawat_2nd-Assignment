@@ -1,0 +1,322 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+                                                               
+                                          
+
+/* Shared Style */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.display-flex{
+    display: flex;
+}
+
+
+
+/* Text Color Style */
+
+.text-orange-01{
+    color: #E6533C;
+}
+
+.text-white-02{
+    color: #FFFFFF;
+}
+
+.text-light-white-03{
+    color: rgba(255, 255, 255, 0.5);
+    
+}
+
+/* Background-Color Style */
+
+.bg-color-01{
+   background-color: #222222;
+
+}
+
+.bg-color-02{
+    background-color: black;
+}
+
+.bg-color-03{
+    background-color: #222222;
+    
+}
+.bg-color-04{
+    background-image: linear-gradient(200deg, rgb(0, 0, 0), rgba(14, 14, 14, 0.9), rgb(0, 0, 0));
+    
+}
+
+/* Nav bar style */
+
+/* .header1{
+    padding-top: 57px;
+} */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.nav-item{
+    list-style: none;
+    margin-left: 47px;
+}
+
+.nav-name{
+    text-decoration: none;
+}
+
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.nav-links{
+    width: 50%;
+}
+
+
+.home{
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border-radius: 46px;
+    color: #FFFFFF;
+}
+
+.fitness{
+    font-weight: 800;
+    font-size: 2.25rem;
+    font-style: italic;
+}
+
+.nav-name{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+
+
+/* Banner Style_Page 01 */
+
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 2px solid greenyellow; */
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.banner-content{
+    max-width: 1440px;
+    /* border: 2px solid white; */
+    width: 50%; 
+}
+
+.banner-title{
+    font-weight: 900;
+    font-size: 4.87rem;
+    color: #FFFFFF;
+    
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+
+
+/* End of Banner Style_Page 01 */
+
+/* Button Style */
+
+.btn-1{
+    background-color: #E6533C;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.12rem;
+    padding: 16px 46.5px;
+    border-radius: 42px;
+    border: 1px #E6533C;
+}
+
+
+.btn-2{
+    background-color: #181818;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.12rem;
+    padding: 16px 46.5px;
+    border-radius: 42px;
+    border: 1px solid white;
+                
+}
+
+
+.btn-3{
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px;
+    border-radius: 12px;
+    padding: 05px 45px;
+    translate: 120px;
+    
+}
+
+
+.btn3-text{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    
+}
+
+.btn3-text1{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.img-container{
+    /* border: 2px solid gold; */
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-container img{
+    width: 100%;
+    
+}
+
+.btn-4{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px;
+    border-radius: 12px;
+    padding: 00px 25px;
+    translate: -65px;
+
+}
+
+.btn4-text{
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+
+.btn4-text1{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}  
+
+/* Media query for Responsive */
+
+@media screen and (max-width: 576px) {
+    .navbar, 
+    .nav-links,
+    .banner 
+    {
+        flex-direction: column;
+        
+    }
+
+    .fitness{
+        margin-left: -200px;
+        text-align: left;
+    }
+    .nav-links{
+        margin-top: -50px;
+        margin-left: 100px;
+        gap: 05px;
+    }
+
+    .banner-title {
+        font-size: 2.25rem;
+        margin-left: -70px;
+    }
+
+    .banner-description{
+        margin-left: -70px;
+        text-align: justify;
+    }
+
+    .btn-1{
+        margin-left: -80px;
+        padding: 16px 20px;
+    }
+
+    .btn-2{
+        margin-right: -80px;
+        padding: 16px 20px;
+    }
+
+    .btn-3{
+        padding: 05px 20px;
+        translate: -70px;
+        transform: translateY(400px);
+    }
+
+    .img-container{
+        width: 70%;
+    }
+
+    .btn-4{
+        padding: 00px 15px;
+        translate: -65px;
+        transform: translateY(-150px);
+    }
+
+
+    /* 
+
+    .nav-links{
+        margin-top: -70px;
+        margin-left: 70px;
+    }
+
+    .banner-title, .shape {
+        font-size: 2.25rem;
+    }
+    .banner-description{
+        
+        text-align: justify;
+    }
+    .banner-description br{
+        display: none;
+    }
+
+    /* .btn-1, .btn-2{
+        margin: 0 auto;
+        width: 50%;
+        flex-direction: none;
+    } */ */
+}
