@@ -238,12 +238,81 @@
     color: rgba(255, 255, 255, 0.5);
 }  
 
+
+/* 2nd page habit style */
+
+.habit-title{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+    
+}
+
+.habit-description{
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 58px;
+}
+
+
+.head-title{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+
+.head-description{
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 6px;
+}
+
+.habit-head{
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.habit-section{
+    justify-content: center;
+    align-items: center;
+}
+
+.habit-banner img{
+   width: 180px;
+   height: 180px;
+   border-radius: 100px;
+   border: 4px solid rgb(39, 38, 38);
+   
+}
+
+.habit-section{
+    gap: 30px;
+}
+
+.habit-banner{
+    text-align: center;
+    padding: 30px;
+    
+}
+
+
+.habits{
+    padding-bottom: 100px;
+}
+
 /* Media query for Responsive */
 
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links,
-    .banner 
+    .banner,
+    .habit-section 
     {
         flex-direction: column;
         
@@ -293,30 +362,5 @@
         padding: 00px 15px;
         translate: -65px;
         transform: translateY(-150px);
-    }
-
-
-    /* 
-
-    .nav-links{
-        margin-top: -70px;
-        margin-left: 70px;
-    }
-
-    .banner-title, .shape {
-        font-size: 2.25rem;
-    }
-    .banner-description{
-        
-        text-align: justify;
-    }
-    .banner-description br{
-        display: none;
-    }
-
-    /* .btn-1, .btn-2{
-        margin: 0 auto;
-        width: 50%;
-        flex-direction: none;
-    } */ */
+    }   
 }
