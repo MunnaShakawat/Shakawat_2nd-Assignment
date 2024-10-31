@@ -306,13 +306,248 @@
     padding-bottom: 100px;
 }
 
+
+/* 2nd page completed */
+
+
+
+/* 3rd Page Start */
+
+
+.third-page{
+    
+    background-color: #000000;
+    justify-content: center;
+    padding-bottom: 129px;
+    
+}
+
+.box-run{
+   width: 1060px;
+   height: 371px;
+   background-color: #222222;
+   border-radius: 18px;
+   justify-content: center;
+   align-items: center;
+   gap: 165px;
+
+}
+.run-title{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+
+.run-description{
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 58px;
+}
+
+.run-img img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    object-fit: cover;
+    
+}
+
+
+.btn-5{
+    background-color: #E6533C;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.12rem;
+    padding: 16px 46.5px;
+    border-radius: 42px;
+    border: 1px #E6533C;
+}
+
+
+
+/* 4th Page */
+
+
+.fourth-page{
+    background-color: #222222;
+    
+}
+
+.bmi-calculator{
+    height: 490px;
+}
+
+.bmi-text{
+    background-color: #000000;
+    justify-content: center;
+}
+
+
+.bmi-title{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+
+.bmi-description{
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 58px;
+}
+
+.bmi-calculator{
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.table-title{
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+
+
+
+.table-content{
+
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    
+    /* color: rgba(255, 255, 255, 0.5); */
+    min-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.table-content thead tr {
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.table-content th ,
+.table-content td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 12px 15px;
+}
+
+.table-content td{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.form-title{
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+
+.form-description{
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 34px;
+}
+
+
+.btn-6{
+    padding: 13px 180px 13px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    
+    
+}
+
+.btn-7{
+    padding: 13px 180px 13px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-8{
+    padding: 13px 219px 13px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-9{
+    padding: 13px 217px 13px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-form{
+    padding-bottom: 12px;
+    row-gap: 20px;
+}
+
+    
+
+.btn-10{
+    padding: 13px 372px 13px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+.btn-11{
+    background-color: #E6533C;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.12rem;
+    padding: 16px 46.5px;
+    border-radius: 42px;
+    border: 1px #E6533C;
+    
+}
+.btn-form1{
+    padding-top: 20px;
+}
+
+
+
 /* Media query for Responsive */
 
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links,
     .banner,
-    .habit-section 
+    .habit-section,
+    .third-page,
+    .box-run,
+    .bmi-text,
+    .bmi-calculator
+     
     {
         flex-direction: column;
         
@@ -362,5 +597,101 @@
         padding: 00px 15px;
         translate: -65px;
         transform: translateY(-150px);
-    }   
+    }
+
+    .habits{
+        padding-bottom: 66px;
+    }
+    .third-page{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 32px;
+        
+    }
+    .box-run{
+        width: 350px;
+        height: 531px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 31px;
+    }
+    
+
+    .run-img img{
+        width: 287px;
+        height: 170px;
+    }
+
+    .run-title {
+        font-size: 2rem; 
+    }
+
+    .run-description{
+        padding-bottom: 24px;
+    }
+
+    .btn-5{
+        padding: 16px 105px;
+        
+    }
+
+    .fourth-page{
+        width: 394px;
+        
+    }
+
+    .bmi-calculator{
+        height: 972px;
+    }
+
+    .bmi-text{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .bmi-title{
+        font-size: 2rem;
+    }
+
+    .bmi-description{
+        padding-bottom: 32px;
+    }
+
+    .calculator{
+        padding-left: 20px;
+    }
+
+    .table-title{
+        font-size: 1rem;
+    }
+
+    .form{
+        padding-left: 20px;
+    }
+
+    .form-title{
+        font-size: 1rem;
+    }
+
+    .btn-6{
+        padding: 13px 60px 13px 20px;
+    }
+
+    .btn-7{
+        padding: 13px 60px 13px 20px;
+    }
+
+    .btn-8{
+        padding: 13px 97px 13px 20px;
+    }
+
+    .btn-9{
+        padding: 13px 98px 13px 20px;
+    }
+
+    .btn-10{
+        padding: 13px 131px 13px 20px;
+    }
+
 }
