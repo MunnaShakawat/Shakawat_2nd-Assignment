@@ -517,9 +517,6 @@
 }
 
 
-
-
-
 .btn-11{
     background-color: #E6533C;
     color: rgba(255, 255, 255, 1);
@@ -535,6 +532,163 @@
 }
 
 
+/* 5th page */
+
+.fifth-page{
+    max-width: 100%;
+    height: 100%;
+    background-color: #000000;
+    padding-bottom: 88px;
+    
+}
+
+.team{
+    padding-top: 48px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.team-title{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+
+.team-description{
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 34px;
+}
+
+.members{
+    width: 1060px;
+    height: 680px;
+    border-radius: 18px;
+    background-color: #222222;
+    margin-left: 23%;
+    padding: 20px;
+    
+}
+
+.member1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+     
+}
+
+.member1 img{
+    width: 326px;
+    height: 272px;
+    radius: 18px;
+
+}
+
+.member-title{
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    /* padding-bottom: 14px; */
+}
+
+.member-description{
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    /* padding-bottom: 34px; */
+}
+
+/* --Last Page */
+
+.last-page{
+    width: 100%;
+    height: 489px;
+    background-color: #222222;
+    
+}
+
+.last{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+.fitnes, .get , .get1{
+   
+    padding: 70px;
+    
+    
+    
+}
+
+.fit-title{
+    font-weight: 800;
+    font-size: 4.37rem;
+    color: #E6533C;
+    padding-bottom: 14px;
+}
+
+.fit-description{
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 34px;
+}
+
+.start-title{
+    font-weight: 900;
+    font-size: 2rem;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+
+ul{
+    list-style: none;
+    font-weight: 300;
+    font-size: 0.88rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 34px;
+}
+
+li{
+    padding-bottom: 20px;
+}
+
+.rights{
+    justify-content: center;
+    text-align: center;
+    background-color: #222222;
+    padding-bottom: 40px;
+}
+
+.box-foot{
+    margin: auto;
+    width: 1059px;
+    height: 0%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+}
+
+.all-right{
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 20px;
+}
+
+
+
+
+
 
 /* Media query for Responsive */
 
@@ -546,7 +700,8 @@
     .third-page,
     .box-run,
     .bmi-text,
-    .bmi-calculator
+    .bmi-calculator,
+    .last
      
     {
         flex-direction: column;
@@ -693,5 +848,46 @@
     .btn-10{
         padding: 13px 131px 13px 20px;
     }
+
+    .team-title{
+       
+        font-size: 2rem;
+        
+        padding-bottom: 14px;
+    }
+
+    .members{
+        width: 350px;
+        height: 2050px;
+        border-radius: 18px;
+        background-color: #222222;
+        margin-left: 3%;
+        /* padding: 20px; */
+        
+    }
+
+    .member1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 20px;
+        justify-content: center;
+        text-align: center; */
+         
+    }
+
+    .last-page {
+        width: 393px;
+        height: 986px;
+    }
+
+    .last{
+        align-items: start;
+        
+        
+    }
+
+    .fitnes, .get , .get1{
+   
+        padding: 10px;
 
 }
